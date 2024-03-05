@@ -5,7 +5,7 @@ ansible_connection: ansible.netcommon.httpapi
 ansible_network_os: arista.eos.eos
 
 # Use SSL (HTTPS)
-ansible_httpapi_use_ssl: true
+ansible_httpapi_use_ssl: false
 
 # Disable SSL certificate validation
 ansible_httpapi_validate_certs: false
